@@ -1,0 +1,66 @@
+.cards {
+    width: 21.5em;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 10px 25px -3px black;
+    padding: 20px;
+    margin: 0 0 3em 7.6em;
+    float: left;
+}
+
+.contends-card{
+    float: left;
+}
+
+.title-card {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 13em;
+}
+
+.contends-cards {
+    margin-bottom: 35px;
+}
+
+.img-card {
+    width: 150px;
+    height: 150px;
+}
+
+.img-card-cetificado {
+    width: 100px;
+    height: 150px;
+}
+
+.img {
+    margin: 0 0 15px 0;
+}
+
+.button-card {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    width: 10em;
+    padding: 10px;
+    margin-bottom: 1.8em;
+}
+
+.a-button {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+}

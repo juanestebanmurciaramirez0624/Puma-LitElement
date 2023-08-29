@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c56;
+  background-repeat: no-repeat;
+  background-position: 89% 70%;
+  background-size: 30% 40%;
+}
+
+.content-header{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.header {
+  border-bottom-right-radius: 100px 100px;
+  margin-bottom: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction:row;
+}
+
+.circle {
+  margin: 20px 0 10px 3%;
+  height: 40%;
+  width: 15%;
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.center-header{
+  display: flex;
+  align-items: center;
+  margin: 0 0 4% -3%;
+}
+
+.name-user {
+  background-color: white;
+  padding: 10px;
+  width: 20em;
+  height: 4em;
+  border-bottom-right-radius: 30px 30px ;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contend-hamburger{
+  margin: 30px;
+}
+
+.hamburger {
+  width: 75px;
+  height: 65px;
+}
+

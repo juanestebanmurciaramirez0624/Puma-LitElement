@@ -1,0 +1,7 @@
+import "./contentbuttom"
+import "./buttomSolicitudes"
+import "./buttomActas"
+import "./buttomPendiente"
+import "./contentForm"
+import "./selectForm"
+import "./inputsForm"

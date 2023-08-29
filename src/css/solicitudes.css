@@ -1,0 +1,101 @@
+.contend-form{
+    float: left;
+    width: 80%;
+}
+
+.solicitud-form {
+    border: solid 2px #999797;
+    border-radius: 15px;
+    margin-left: 3em;
+    width: 89%; 
+    padding: 50px;
+}
+
+.title-form {
+    margin-bottom: 0.6em;
+    font-size: 40px;
+}
+
+.select-form {
+    width: 15em;
+    height: 2em;
+    border-radius: 7px;
+    margin: 0.5em 0 1.5em 0;
+}
+
+.colum-inputs {
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+    height: 2.5em;
+    border-radius: 7px;
+    margin: 0 5em 1em 0;
+    padding: 3px;
+    outline: none;
+    border: solid 1px #8a8a8a;
+    padding-left: 4px;
+}
+
+
+::placeholder {
+    color: silver;
+    font-size: 15px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.select {
+    width: 51%;
+    height: 2.7em;
+    border-radius: 7px;
+    margin: 10px 4.5em 2em 0;
+    padding: 3px;
+    border: solid 1px #8a8a8a;
+}
+
+select {
+    background-color: white;
+    background-image: url(../img/select-flecha.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    appearance: none;
+    /*appearance funcina para eliminar estilos nativos en este caso la flecha del select*/
+    outline: none;
+}
+
+select,
+option {
+    color: silver;
+    font-size: 15px;
+}
+
+.textarea {
+    height: 7em;
+    width: 70%;
+    border-radius: 10px;
+    border: solid 1px #8a8a8a;
+    margin-right: 1em;
+    padding: 5px;
+    outline: none;
+    resize: none; /*Evitar que el texarea sea modificable*/
+}
+
+.button-form {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 7px;
+    width: 23%;
+    padding: 10px;
+    height: 3em;
+}
+
+.a-button{
+    color: white;
+    text-decoration: none;
+}
+

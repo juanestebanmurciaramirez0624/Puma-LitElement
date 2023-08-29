@@ -1,0 +1,53 @@
+.contend-inpust{
+    float: left;
+}
+
+.inputs {
+    display: flex;
+    width: 27.4em;
+    height: 8em;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 15px 25px -3px black;
+    padding: 10px;
+    margin: 0 0 7em 3.1em;
+    float: left;
+    border: solid 2px silver;
+}
+
+.img{
+    margin-right: 10px;
+    width: 100px;
+    height: 120px;
+}
+
+.text-inputs{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    width: 10em;
+    margin-right: 1em;
+    color: black;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flecha{
+    width: 40px;
+    height: 40px;
+}
+
+.solicitudes{
+    text-align: center;
+    margin-left: 3em;
+}
+
+.hr-solicitudes{
+    width: 22em;
+    margin-bottom: 1em;
+    margin-top: -1.8em;
+}
